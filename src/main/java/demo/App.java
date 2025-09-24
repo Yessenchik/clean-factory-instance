@@ -13,7 +13,7 @@ public class App {
         sendWelcome(new EmailNotificationFactory(), "yessenchiik@gmail.com");
         sendWelcome(new SmsNotificationFactory(), "+7 777 777 7777");
 
-        //Abstract Factory demo: UI family
+        //Abstract Factory demo: UI familyy
         renderLoginScreen(new LightUiFactory()); // switch to a different family by one line
         renderLoginScreen(new DarkUiFactory());
     }
