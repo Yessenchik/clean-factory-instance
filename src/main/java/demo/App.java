@@ -18,7 +18,7 @@ public class App {
         renderLoginScreen(new DarkUiFactory());
     }
 
-    // Small, clear helper (Clean Code: small functions, meaningful names)
+    //Small, clear helper (small functions, meaningful names)
     private static void sendWelcome(NotificationFactory factory, String recipient) {
         var notification = factory.create();
         notification.send(recipient, "Welcome to our app!");
